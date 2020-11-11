@@ -1,0 +1,13 @@
+.container {
+    padding: 3rem 5rem;
+}
+
+.form {
+    padding: 0;
+    display: grid;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: black;
+}
