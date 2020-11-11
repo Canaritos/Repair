@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="local">
+        <item>nomes dos</item>
+        <item>ambientes</item>
+        <item>e o andar</item>
+        <item>do lado</item>
+
+    </string-array>
+</resources>

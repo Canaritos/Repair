@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SeusChamados">
+
+
+
+   <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/voltando" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/qrcode" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Repair"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Seus chamados"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="21sp" />
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/round_cinza" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-65dp"
+        android:fontFamily="@font/font"
+        android:text="Ausência de mouse"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/font"
+        android:text="Data: 25/10/2020"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/sair" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/edit" />
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_cinza" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-65dp"
+        android:fontFamily="@font/font"
+        android:text="Instalação Android Studio"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/font"
+        android:text="Data: 20/10/2020"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/sair" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/edit" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Chamados concluídos"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="21sp" />
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/round_cinza" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-65dp"
+        android:fontFamily="@font/font"
+        android:text="Instalação SQL"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/font"
+        android:text="Data: 20/10/2020"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/starta" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/starta" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/starta" />
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_cinza" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-65dp"
+        android:fontFamily="@font/font"
+        android:text="Torneira quebrada"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/font"
+        android:text="Data: 19/10/2020"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/starta" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/starta" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/starta" />
+
+
+</LinearLayout>

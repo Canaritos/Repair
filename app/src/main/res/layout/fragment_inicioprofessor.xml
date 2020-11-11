@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/voltando" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/qrcode" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Olá, nome!"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselAluno"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"/>
+
+
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_cinza" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-60dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Abrir chamado"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp" />
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_cinza" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-60dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Seus chamados"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp" />
+
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_cinza" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-60dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Visualizar relatórios"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-665dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Repair"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/setaroxa" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/setaroxa" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/setaroxa" />
+
+</LinearLayout>

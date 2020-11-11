@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.example.repair"
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //Librarys
+    //GIF
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    //Mascara
+    implementation 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
+    //ImageView arredondada
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //Carousel
+    implementation 'com.synnapps:carouselview:0.1.5'
+    //1° biblioteca QRCode
+    implementation 'com.google.zxing:core:3.2.1'
+    //2° biblioteca QRCode
+    implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+    //Graficos
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+
+
+}

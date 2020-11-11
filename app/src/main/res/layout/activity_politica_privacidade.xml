@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".politicaPrivacidade">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/voltando" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-37dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Política de privacidade"
+        android:textSize="21sp" />
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="480dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/round_cinza" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-600dp"
+        android:src="@drawable/secure" />
+
+    <TextView
+        android:layout_width="315dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-40dp"
+        android:fontFamily="@font/font"
+        android:text="O Repair é um aplicativo que presta auxílio e otimização à manutenção de ambientes da Escola Técnica Estadual de Guaianases. Nossa aplicação se preocupa com sua privacidade e garante a segurança das informações que recebemos e coletamos.
+Você concorda com nossos Termos de Serviço a partir do momento em que instala, acessa ou usa nosso aplicativo, serviços e recursos. A plataforma, a interface do usuário, bem como os componentes dos aplicativos e outros serviços são protegidos por direitos autorais, esses direitos incluem o código do programa, aparência, documentação e todos os logotipos."
+        android:textAlignment="gravity"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".sliderUm">
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/slideum" />
+
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Registre um chamado"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:text="Para abrir um chamado, basta preencher um formulário indicando o equipamento que apresentou defeitos."
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="19sp" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_button"
+        android:drawableRight="@drawable/seta"
+        android:drawablePadding="-20dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Próximo"
+        android:onClick="dois"
+        android:textAlignment="inherit"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-750dp"
+        android:layout_marginLeft="155dp"
+        android:fontFamily="@font/baloo_da"
+
+
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="355dp"
+        android:onClick="irlogin"
+        android:src="@drawable/sairr"
+        android:layout_marginTop="-30dp"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="35dp"
+        android:src="@drawable/umtres"
+        android:layout_marginTop="645dp"
+        />
+
+</LinearLayout>

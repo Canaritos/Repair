@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".cadastroCoordenador">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/voltando"
+        android:layout_marginTop="30dp"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/coordenadores" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-65dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Cadastre um coordenador"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Nome"
+        android:textSize="19sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+    <EditText
+        android:id="@+id/inputNomeCoordenador"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:backgroundTint="#F5F6FA"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-40dp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Email"
+        android:textSize="19sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+    <EditText
+        android:id="@+id/inputEmailCoordenador"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:backgroundTint="#F5F6FA"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-40dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="RM"
+        android:textSize="19sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+    <EditText
+        android:id="@+id/inputRmCoordenador"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:backgroundTint="#F5F6FA"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-40dp"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Senha de acesso"
+        android:textSize="19sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+    <EditText
+        android:id="@+id/inputSenhaCoordenador"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-40dp"
+        android:backgroundTint="#F5F6FA"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Área"
+        android:textSize="19sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+
+    <Spinner
+        android:id="@+id/spnAreaCoordenador"
+        android:layout_width="315dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:entries="@array/areas"
+        android:spinnerMode="dropdown"/>
+
+
+    <Button
+        android:id="@+id/btnCadastraCoordenador"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/baloo_da"
+        android:text="Cadastrar"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

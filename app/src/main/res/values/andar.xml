@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="andar">
+        <item>Subsolo</item>
+        <item>1° Andar </item>
+        <item>2° Andar </item>
+
+    </string-array>
+</resources>

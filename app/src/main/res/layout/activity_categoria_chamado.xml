@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoriaChamado">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/voltando" />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Repair"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Chamados por categoria"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="21sp" />
+
+    <View
+
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_cinza" />
+
+
+
+    <View
+
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/round_cinza" />
+
+    <View
+
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/round_cinza" />
+
+    <View
+
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/round_cinza" />
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_cinza" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="-420dp"
+        android:src="@drawable/pczao" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="DS"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-130dp"
+        android:src="@drawable/restaurant" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Nutrição"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/eletroeletro" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Eletrônica"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-120dp"
+        android:src="@drawable/edifica" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Edificações"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Gerais"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/setaroxa" />
+</LinearLayout>

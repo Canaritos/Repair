@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.repair">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GraficosAdm"></activity>
+        <activity android:name=".UsuariosRepair" />
+        <activity android:name=".ChamadosGerais" />
+        <activity android:name=".ChamadosDs" />
+        <activity android:name=".CategoriaChamado" />
+        <activity android:name=".ChamadosRealizados" />
+        <activity android:name=".ChamadosCoordenador" />
+        <activity android:name=".SeusChamados" />
+        <activity android:name=".politicaPrivacidade" />
+        <activity android:name=".AjudaUsuario" />
+        <activity android:name=".fragment_InicioCoordenador" />
+        <activity android:name=".DescricaoChamado" />
+        <activity android:name=".LocalizacaoChamados" />
+        <activity android:name=".CoordenadorEdificacoes" />
+        <activity android:name=".CoordenadorEletronica" />
+        <activity android:name=".CoordenadorDs" />
+        <activity android:name=".CadastroAmbiente" />
+        <activity android:name=".cadastroCoordenador" />
+        <activity android:name=".cadastroProfessor" />
+        <activity android:name=".cadastroAluno" />
+        <activity android:name=".sliderTres" />
+        <activity android:name=".sliderDois" />
+        <activity android:name=".sliderUm" />
+        <activity android:name=".CadastroActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

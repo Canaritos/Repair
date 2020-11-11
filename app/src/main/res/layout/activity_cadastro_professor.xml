@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".cadastroProfessor">
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/voltando"
+        android:onClick="cadastro"
+        android:layout_marginTop="20dp"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/professor" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Estamos quase lá!"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-10dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Entre com seu RM"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="RM"
+        android:textSize="20sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+
+    <Button
+        android:id="@+id/btncadastraProfessor"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/baloo_da"
+        android:text="Concluir"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/inputRmProfessor"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:backgroundTint="#F5F6FA"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-140dp"
+        android:inputType="number" />
+
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="-590dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Professor(a)"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</LinearLayout>

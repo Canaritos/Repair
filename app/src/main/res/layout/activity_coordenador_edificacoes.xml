@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".CoordenadorEdificacoes">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/voltando"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-30dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo_da"
+        android:text="Coordenador - Edificações"
+        android:textSize="19sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-0dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/edificacoes" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-55dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Ambientes coordenados"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/cbEdificacoes1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-20dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 1"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="19sp" />
+
+
+    <CheckBox
+        android:id="@+id/cbPranchetario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Pranchetário"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="19sp" />
+
+
+
+    <Button
+        android:id="@+id/btnCadastraCoordenadorElo"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/baloo_da"
+        android:text="Concluir"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

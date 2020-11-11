@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".CoordenadorDs">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/voltando"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-30dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo_da"
+        android:text="Coordenador - DS"
+        android:textSize="19sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/slidetres" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="-45dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Laboratórios coordenados"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/checkLab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-20dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 1"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkLab2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-40dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 2"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:id="@+id/checkLab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="3dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 3"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:id="@+id/checkLab4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-40dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 4"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/checkLab5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="3dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 5"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:id="@+id/checkLab6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-40dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 6"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+
+    <Button
+        android:id="@+id/btnCadastraCoordenadorDs"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/baloo_da"
+        android:text="Concluir"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".CoordenadorEletronica">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/voltando"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-30dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo_da"
+        android:text="Coordenador - Eletrônica"
+        android:textSize="19sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/eletronica" />
+
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-35dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Laboratórios coordenados"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/cbEletro1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-5dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 1"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+
+    <CheckBox
+        android:id="@+id/cbEletro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="-40dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 2"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:id="@+id/cbEletro3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="3dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 3"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:id="@+id/cbEletro4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="-40dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 4"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:id="@+id/cbEletro5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="3dp"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Lab 5"
+        android:textColor="#808080"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btnCadastraCoordenadorElo"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/baloo_da"
+        android:text="Concluir"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

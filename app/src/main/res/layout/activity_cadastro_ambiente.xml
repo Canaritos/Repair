@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".CadastroAmbiente">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/voltando"
+        android:layout_marginTop="30dp"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-0dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/local" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-65dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/baloo_da"
+        android:text="Cadastre um local"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Tipo"
+        android:textSize="20sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+    <Spinner
+        android:id="@+id/spnTipoLocal"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-48dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:entries="@array/ambientes"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Nome"
+        android:textSize="20sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+
+    <EditText
+        android:id="@+id/inputNomeLocal"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:backgroundTint="#F5F6FA"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-45dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnCadastraAmbiente"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Cadastrar" />
+</LinearLayout>

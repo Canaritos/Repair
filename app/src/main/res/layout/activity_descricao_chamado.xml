@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6FA"
+    android:orientation="vertical"
+    tools:context=".DescricaoChamado">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/voltando" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/qrcode" />
+
+
+    <View
+
+        android:layout_width="360dp"
+        android:layout_height="580dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/round_branco" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-710dp"
+        android:src="@drawable/error" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-0dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Descrição do chamado"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="-70dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Para abrir um chamado automaticamente, use o QRCode."
+        android:textAlignment="gravity"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Problema"
+        android:textSize="20sp" />
+
+
+    <View
+
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/round_cinza" />
+
+
+    <EditText
+        android:id="@+id/inputProblemaChamado"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#F5F6FA"
+        android:ems="10"
+        android:inputType="text"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Área"
+        android:textSize="20sp" />
+
+
+    <View
+
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/round_cinza" />
+
+
+
+
+    <Spinner
+        android:id="@+id/spnAreaProblema"
+        android:layout_width="320dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:entries="@array/areaProblema"
+        android:spinnerMode="dropdown"/>
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Foto"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-45dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="(opcional)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+
+    <View
+
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/round_cinza" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-43dp"
+        android:src="@drawable/fotobj" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Cadastrar" />
+
+</LinearLayout>
