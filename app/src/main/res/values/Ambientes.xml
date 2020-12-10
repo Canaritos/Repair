@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ambientes">
+        <item>Andar</item>
+        <item>Sala</item>
+        <item>Mesa</item>
+
+    </string-array>
+</resources>

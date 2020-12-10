@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfessor"
+    android:orientation="vertical"
+    tools:context=".sliderTres">
+
+
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/slider3" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-10dp"
+        android:textColor="#fff"
+        android:fontFamily="@font/font"
+        android:text="Chamado aberto"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:text="Após a abertura do chamado, ele será enviado para a equipe responsável pela manutenção."
+        android:textAlignment="inherit"
+        android:textColor="#fff"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_branco"
+        android:drawablePadding="-20dp"
+        android:fontFamily="@font/baloo_da"
+        android:onClick="entrar"
+        android:text="Entrar"
+        android:textAlignment="inherit"
+        android:textColor="@color/colorProfessor"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="-750dp"
+        android:fontFamily="@font/baloo_da"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-40dp"
+        android:onClick="voltardois"
+        android:src="@drawable/voltando" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="-30dp"
+        android:onClick="saia"
+        android:src="@drawable/sairr" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="650dp"
+        android:src="@drawable/tresdetres" />
+</LinearLayout>

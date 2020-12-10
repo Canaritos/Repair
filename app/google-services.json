@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461270195789",
+    "firebase_url": "https://repair-tcc7.firebaseio.com/",
+    "project_id": "repair-tcc7",
+    "storage_bucket": "repair-tcc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461270195789:android:449e5a57edd0308cec4604",
+        "android_client_info": {
+          "package_name": "com.example.repair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461270195789-f0ienhuo0ats0geglhn1v4bjdohjb5dh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.repair",
+            "certificate_hash": "d378d85e65b1788765db73cf2320da4dc4aae70d"
+          }
+        },
+        {
+          "client_id": "461270195789-a4hpr4de12haqc6q05sn7vbvltl6acml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABwwckx9R2klohGczDGZZFCgxs3Su9oUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461270195789-a4hpr4de12haqc6q05sn7vbvltl6acml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAluno"
+    android:orientation="vertical"
+    tools:context=".sliderDois">
+
+
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/slider2" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-10dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/font"
+        android:text="QRCode do equipamento"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:text="Se preferir, escaneie o QRCode do respectivo equipamento para abrir um chamado automaticamente."
+        android:textAlignment="inherit"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fff"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/round_branco"
+
+        android:drawablePadding="-20dp"
+        android:fontFamily="@font/baloo_da"
+        android:onClick="tres"
+        android:text="Next"
+        android:textAlignment="inherit"
+        android:textColor="@color/colorAluno"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="-750dp"
+        android:fontFamily="@font/baloo_da"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-40dp"
+        android:onClick="voltaum"
+        android:src="@drawable/voltando" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="-30dp"
+        android:onClick="exit"
+        android:src="@drawable/sairr" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="660dp"
+        android:src="@drawable/doisdetres" />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/chatalu"
+        android:onClick="cadastro"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/font"
+        android:text="Para conversas mais detalhadas, abra o Whatsapp clicando no botão abaixo."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAbre"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_aluno"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Whatsapp" />
+
+
+
+
+</LinearLayout>

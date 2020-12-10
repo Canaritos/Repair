@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="areaProblema">
+        <item>Desenvolvimento de sistemas</item>
+        <item>Edificações</item>
+        <item>Eletrônica</item>
+        <item>Nutrição</item>
+        <item>Geral</item>
+
+
+    </string-array>
+</resources>
